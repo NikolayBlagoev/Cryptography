@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <script src="ceasar_cipher.js"></script>
+    </head>
+<body>
+
+<form>
+  <div>
+  <p>Value for a:</p>
+  <textarea  id="val1" rows="4" cols="50"></textarea>
+  </div>
+  <div style="display:inline">
+  <input type="button" onclick="onClickEncr()" value="ENCRYPT"></input>
+  <p>Map A to:</p>
+  <input type="text" id="key1" size="3" value="K"></input>
+  <p>Increment</p>
+  <input type="text" id="key2" size="3" value="0"></input>
+  <input type="button" onclick="onClickDecr()" value="DECRYPT"></input>
+ </div>
+ <div>
+  <p>Value for b:</p>
+  <textarea  id="val2" rows="4" cols="50"></textarea>
+</div>
+  <p id="output">GCD of the two values:</p>
+</form>
+
+
+
+</body>
+</html>
